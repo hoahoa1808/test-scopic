@@ -14,7 +14,7 @@ conda activate stable_diffusion
 
 * Install some dependencies
 ```
-pip install -qq git+https://github.com/ShivamShrirao/diffusers
+pip install -q git+https://github.com/ShivamShrirao/diffusers
 pip install -q -U --pre triton
 pip install -q accelerate transformers ftfy bitsandbytes==0.35.0 gradio natsort safetensors xformers
 ```
@@ -100,7 +100,7 @@ pip install -q accelerate transformers ftfy bitsandbytes==0.35.0 gradio natsort 
   
   ```
 
-* Convert checkpoint file to ckpt file:
+* Convert checkpoint file to ckpt file (if it's nessesary):
 
 ```
 WEIGHTS_DIR = "your_saved_folder"
@@ -117,7 +117,7 @@ python convert_diffusers_to_original_stable_diffusion.py --model_path $WEIGHTS_D
 
 ```
 
-  U can download my model file [here](https://drive.google.com/file/d/1-9vB4rej23ertZBrCbm-5OMq8TG35R-W/view?usp=drive_link)
+  U can download my model files [orginal file](https://drive.google.com/file/d/10xHlUk_CzyyaFdSOZt2mYvA6onhbhjKm/view?usp=sharing) | [ckpt](https://drive.google.com/file/d/1-9vB4rej23ertZBrCbm-5OMq8TG35R-W/view?usp=drive_link)
   
 # Test fine-tuned Stable Diffusion model
 
