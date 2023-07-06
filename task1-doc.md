@@ -127,7 +127,7 @@ python convert_diffusers_to_original_stable_diffusion.py --model_path $WEIGHTS_D
 python infer.py --weight_path <your path>  --prompt "a math class" --outdir <your path> -H 256 -W 256 -n-samples 4
 ```
 
-- samples
+- samples with prompt `a picture of a group student discussing in math class`
 
 ![sample1](./assets/s1.png)
 
