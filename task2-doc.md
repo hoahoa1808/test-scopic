@@ -2,10 +2,10 @@
 
 ## The source codes : 
   - [web](webUI).
-  - Dirtionary Contruction:
-  ```
+  - Dirtionary Contruction: I seperate into 2 branch:
+    - BE : contain code use in server. call ML model to generate image from text and return client.
+    - FE : contain code (html, js, css).
 
-  ```
 
 ## Instruction 
 

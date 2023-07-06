@@ -1,9 +1,10 @@
 # Task1: Build T2I model
 
 - Model I use is [Stable Diffusion](https://github.com/ShivamShrirao/diffusers). Read [paper here](https://paperswithcode.com/paper/high-resolution-image-synthesis-with-latent)
-
+- All my code in [src folder](./src/readme.md)
 
 # GET STARTED
+
 
 * Create environment:
 ```
@@ -22,6 +23,9 @@ pip install -q accelerate transformers ftfy bitsandbytes==0.35.0 gradio natsort 
 * Prepare data
   - here I use a subset `classroom` (300 images) from [Lsun dataset](https://github.com/fyu/lsun)
 
+  ![visual](./assets/dataset.webp)
+
+  - download by:
   ```
   git clone https://github.com/fyu/lsun.git
   python3 download.py -c classroom
